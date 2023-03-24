@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Universidad Nacional de Ingenieria</title>
+    <!--Link de imagen del titulo-->
+    <link rel="shortcut icon" href="img/logouni.png" type="image/x-icon">
     <!--css personalizado-->
     <link rel="stylesheet" href="styles.css">
 
@@ -15,89 +17,94 @@
     <!--elemento-->
     <ul class="list">
 
-      <li class="list_item">
+      <li class="list__item">
         <!--Contenedor-->
-        <div class="list_botton">
+        <div class="list__botton">
           <!--Imagen-->
-        <img src="img/logouni.png" alt="Logo Uni" class="list_img">
+        <img src="img/logouni.png" width="25px" alt="Logo Uni" class="list__img">
         <!--elemento-->
-        <a href="#" class="nav_link">UNI EARPFIM</a>
+        <a href="#" class="nav__link">UNI EARPFIM</a>
 
         </div>
       </li>
 
       <!--Lista-->
-      <li class="list_item">
-        <div class="list_button list_button--click">
-          <img src="asset/male.svg" class="list_img">
-          <a href="#" class="nav_link">General</a>
-          <img src="assets/flecha.svg" class="list_flecha">
+      <li class="list__item  list__item--click">
+        <div class="list__button list__button--click">
+          <!--BoxIcons-->
+          <img src="assets/male.svg" class="list__img">
+          <a href="#" class="nav__link">General</a>
+          <img src="assets/flecha.svg" class="list__flecha">
         </div>
-
+        <!--<select name="select">
+          <option value="value1">Value 1</option>
+          <option value="value2" selected>Value 2</option>
+          <option value="value3">Value 3</option>
+        </select-->
         <!--Un menu dentro de otro menu-->
-        <ul class="list_show">
-          <li class="list_inside">
-            <a href="#" class="nav_link nav_link--inside">Aula Virtual FIM</a>
+        <ul class="list__show">
+          <li class="list__inside">
+            <a href="#" class="nav__link nav__link--inside">Aula Virtual FIM</a>
+
+          </li>
+
+          <li class="list__inside">
+            <a href="#" class="nav__link nav__link--inside">Mi Horario de Clases</a>
+
+          </li>
+
+          <li class="list__inside">
+            <a href="#" class="nav__link nav__link--inside">Información Docente</a>
 
           </li>
 
           <li class="list_inside">
-            <a href="#" class="nav_link nav_link--inside">Mi Horario de Clases</a>
+            <a href="#" class="nav__link nav_link--inside">Mis Cursos Asignados</a>
 
           </li>
 
-          <li class="list_inside">
-            <a href="#" class="nav_link nav_link--inside">Información Docente</a>
+          <li class="list__inside">
+            <a href="#" class="nav__link nav__link--inside">Tutoria Alumnos</a>
 
           </li>
 
-          <li class="list_inside">
-            <a href="#" class="nav_link nav_link--inside">Mis Cursos Asignados</a>
+          <li class="list__inside">
+            <a href="#" class="nav__link nav__link--inside">Asistencia</a>
 
           </li>
 
-          <li class="list_inside">
-            <a href="#" class="nav_link nav_link--inside">Tutoria Alumnos</a>
+          <li class="list__inside">
+            <a href="#" class="nav__link nav__link--inside">Cargar Notas ORCE</a>
 
           </li>
 
-          <li class="list_inside">
-            <a href="#" class="nav_link nav_link--inside">Asistencia</a>
+          <li class="list__inside">
+            <a href="#" class="nav__link nav__link--inside">Biblioteca Virtual</a>
 
           </li>
 
-          <li class="list_inside">
-            <a href="#" class="nav_link nav_link--inside">Cargar Notas ORCE</a>
+          <li class="list__inside">
+            <a href="#" class="nav__link nav__link--inside">Mi Disponibilidad</a>
 
           </li>
 
-          <li class="list_inside">
-            <a href="#" class="nav_link nav_link--inside">Biblioteca Virtual</a>
+          <li class="list__inside">
+            <a href="#" class="nav__link nav__link--inside">Reclamo de reclamo</a>
 
           </li>
 
-          <li class="list_inside">
-            <a href="#" class="nav_link nav_link--inside">Mi Disponibilidad</a>
+          <li class="list__inside">
+            <a href="#" class="nav__link nav__link--inside">Correción de notas</a>
 
           </li>
 
-          <li class="list_inside">
-            <a href="#" class="nav_link nav_link--inside">Reclamo de reclamo</a>
+          <li class="list__inside">
+            <a href="#" class="nav__link nav__link--inside">Ayuda en Aula</a>
 
           </li>
 
-          <li class="list_inside">
-            <a href="#" class="nav_link nav_link--inside">Correción de notas</a>
-
-          </li>
-
-          <li class="list_inside">
-            <a href="#" class="nav_link nav_link--inside">Ayuda en Aula</a>
-
-          </li>
-
-          <li class="list_inside">
-            <a href="#" class="nav_link nav_link--inside">Aula virtual Titulación</a>
+          <li class="list__inside">
+            <a href="#" class="nav__link nav__link--inside">Aula virtual Titulación</a>
 
           </li>
 
@@ -106,38 +113,50 @@
 
       </li>
 
-      <li class="list_item">
-        <div class="list_botton">
-          <img src="asset/male.svg" class="list_img">
-          <a href="#" class="nav_link">Administrador</a>
-          <img src="assets/flecha.svg" class="list_img">
+      <li class="list__item  list__item--click">
+        <div class="list__button list__button--click">
+          <img src="assets/male.svg" class="list__img">
+          <a href="#" class="nav__link">Administrador</a>
+          <img src="assets/flecha.svg" class="list__flecha">
+        </div>
+
+        <ul lass="list__show">
+          <li class="list__inside">
+            <a href="#" class="nav__link nav__link--inside">Casilla en blanco</a>
+
+          </li>
+
+          <li class="list__inside">
+            <a href="#" class="nav__link nav__link--inside">Casilla en blanco</a>
+
+          </li>
+
+        </ul>
+      </li>
+
+      <li class="list__item">
+        <div class="list__button list__button--click">
+          <img src="assets/male.svg" class="list__img">
+          <a href="#" class="nav__link">Acreditación FIM</a>
+          <img src="assets/flecha.svg" class="list__flecha">
 
         </div>
       </li>
 
-      <li class="list_item">
-        <div class="list_botton">
-          <img src="asset/male.svg" class="list_img">
-          <a href="#" class="nav_link">Acreditación FIM</a>
-          <img src="assets/flecha.svg" class="list_img">
+      <li class="list__item">
+        <div class="list__button list__button--click">
+          <img src="assets/male.svg" class="list__img">
+          <a href="#" class="nav__link">Virtual</a>
+          <img src="assets/flecha.svg" class="list_flecha">
 
         </div>
       </li>
 
-      <li class="list_item">
-        <div class="list_botton">
-          <img src="asset/male.svg" class="list_img">
-          <a href="#" class="nav_link">Virtual</a>
-          <img src="assets/flecha.svg" class="list_img">
-
-        </div>
-      </li>
-
-      <li class="list_item">
-        <div class="list_botton">
-          <img src="asset/male.svg" class="list_img">
-          <a href="#" class="nav_link">Documentos académicos</a>
-          <img src="assets/flecha.svg" class="list_img">
+      <li class="list__item">
+        <div class="list__button list__button--click">
+          <img src="assets/male.svg" class="list__img">
+          <a href="#" class="nav__link">Documentos académico</a>
+          <img src="assets/flecha.svg" class="list__flecha">
 
         </div>
       </li>
@@ -148,7 +167,5 @@
 
 
 
-
-  <script src="min.js"></script>
 </body>
 </html>
