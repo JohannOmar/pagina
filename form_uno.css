@@ -1,0 +1,85 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+td button{
+    padding: 5px 0px;
+    border: 0;
+    background-color: aqua;
+
+}
+
+header{
+    padding: 15px;
+    background-color: cornflowerblue;
+    display: flex;
+    
+}
+
+.nombre{
+    color: white;
+    display: block;
+    text-align: center;
+    line-height: 1;
+    letter-spacing: .02em;
+
+    
+}
+
+header a{
+    position: static;
+}
+
+body{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+table{
+    width: 100%;
+}
+
+.car h3{
+    text-align: right;
+    color: gray;
+}
+
+.button li a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: whitesmoke;
+    color: black;
+    right: 250px;
+}
+
+
+
+li, a{
+    list-style: none;
+    position: fixed;
+    right: 200px;
+    
+}
+h4{
+    position: fixed;
+    right: 233px;
+    color: rgb(46, 95, 241);
+}
+
+.pd li a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(218, 79, 79);
+    left: 70px;
+    width: 130px;
+    height: 30px;
+    text-align: center;
+    
+}
+
+

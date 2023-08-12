@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    margin: 5%;
+    padding: 2%;
+    display: center;
+    justify-content: center;
+    border-radius: 4px;
+    color: rgb(120, 121, 122);
+    border-color: rgb(120, 121, 122);
+    box-shadow: 0 0 20px rgb(209, 202, 202);}    
+
+h1{
+    width: auto;
+    font-size: 13px;
+    color: rgb(2, 2, 2);
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+
+}
+p{
+  width: auto;  
+  text-align: center;
+  font-size: 12px;
+}
+h2{
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.marcar{
+    display: flex;
+    justify-content: center;
+}
+.boton1{
+    padding: 6px;
+    font-size: 10px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    
+    border-color: rgb(28, 137, 28);
+    background-color: rgb(28, 137, 28);
+    font-family: 'Open Sans', sans-serif;
+
+}
+.tomar{
+    display: flex;
+    justify-content: center;
+}
+.boton2{
+    padding: 6px;
+    font-size: 10px;
+    font-weight: 500;
+    color:rgb(255, 255, 255);
+    cursor: pointer;
+
+
+    border-color: rgb(255, 175, 36);
+    background-color: rgb(255, 175, 36);
+    font-family: 'Open Sans', sans-serif;
+}
+.solicitar{
+    display: flex;
+    justify-content: center;
+}
+.boton3{
+    padding: 6px;
+    font-size: 10px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+
+
+    border-color: #224fb1;
+    background-color: #224fb1;
+}
+.botones{
+    display: flex;
+    justify-content: center;
+}
+.boton4{
+    padding: 6px;
+    font-size: 10px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+
+
+    border-color: #224fb1;
+    background-color: #224fb1;
+}
+.boton5{
+    padding: 6px;
+    font-size: 10px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+
+
+    border-color: #224fb1;
+    background-color: #224fb1;
+}
+.boton6{
+    padding: 6px;
+    font-size: 10px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+
+
+    border-color: #224fb1;
+    background-color: #224fb1;
+}
+.boton7{
+    padding: 6px;
+    font-size: 10px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+
+
+    border-color: #224fb1;
+    background-color: #224fb1;
+}
+.reporte{
+    display: flex;
+    justify-content: center;
+}
+.boton8{
+    padding: 6px;
+    font-size: 10px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+
+
+    border-color: #224fb1;
+    background-color: #224fb1;
+}

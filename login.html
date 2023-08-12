@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="login.css">
+    <title>UNI | EARPFIM</title>
+    <!--Link de imagen del titulo-->
+  <link rel="shortcut icon" href="img/logoUnibarra.png" type="image/x-icon">
+</head>
+<body>
+    <div class="franja">
+        <div class="nombrelargo"><img class="imagenlogo" src="img/logo2.png">
+            UNIVERSIDAD NACIONAL DE INGENIERÍA
+            <br>
+            FACULTAD DE INGENIERÍA MECÁNICA
+        </div>
+        <!--div class="nombrecorto">
+            UNI FIM
+        </div-->
+    </div>
+    <br>
+    <div class="Contenidofuera">
+        <h1>INTRANET EARPFIM</h1>
+        <h2>Sistema de Planificación de Recursos Académicos y Empresariales</h2>
+    </div>
+    <!--Contenedor-->
+    <div class="container">
+        <!--Form-->
+        <form action="center" name="form" onsubmit="return validated()">
+            <h3>Usuario</h3>
+            <div class="form__group form__div">
+                <input class="usuario" type="text" name="usuario" placeholder="Usuario UNI">
+            </div>
+            <h3>Contraseña</h3>
+            <div class="form__group form__div">
+                <input class="contraseña" type="password" name="contraseña" placeholder="Contraseña">
+            </div>
+            <div class="form__group--iniciar">
+                <button class="iniciar"  type="submit">INICIAR SESION</button>
+            </div>
+            <div class="form__group--enlace">
+                <a class="enlace" href="#">¿Olvidó su contraseña?</a>
+            </div>
+       </form>
+       <hr>
+       <div class="div__group--google">
+           <button class="google" type="submit"><img src="img/googlelogo.webp" width="16">  Iniciar sesión con Google</button>
+        </div>
+       <!--button type="submit"><img src="img/googlelogo.webp" width="12"> Iniciar sesión con Google</button-->
+       <p>Temporalmente solo para docentes</p>
+       <div class="comunicado">
+         <b class="comunicado" href="#">Ver Comunicados</b>
+        </div>
+    </div>
+
+    <script src="menu.js"></script>
+
+</body>
+</html>

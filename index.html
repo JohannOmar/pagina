@@ -1,171 +1,123 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">  
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Universidad Nacional de Ingenieria</title>
-    <!--Link de imagen del titulo-->
-    <link rel="shortcut icon" href="img/logouni.png" type="image/x-icon">
-    <!--css personalizado-->
+    <title>Menú despegable</title>
+    <link rel="shortcut icon" href="img/logoUnibarra.png">
     <link rel="stylesheet" href="styles.css">
-
 </head>
 <body>
-  <!--Clase nav-->
+  <!-- barra azul -->
+  <div id="sidebar__01">
+    <nav class="nave">
+        <ul class="barra">
+            <li class="barra__arriba">
+                <section class="barra__principal">
+                    <img src="assets/bx-menu.svg" class="lista__img">
+                </section>
+                <section> 
+                    <span class="tit">OBREGON RAMOS, MAXIMO</span>
+                </section>
+            </li>
+            <!-- los tres puntos y su lista -->
+            <li class="bar">
+                <section class="barra__01">
+                    <img src="assets/puntos.svg" class="img">
+                </section>
+                <ul class="lista" id="otros">
+                    <li class="inside__list"><a href="" class="link__nav link__nav--inside">Mi Informacion</a></li>
+                    <li class="inside__list"><a href="" class="link__nav">Reinicar Clave </a></li>
+                    <li class="inside__list"><a href="" class="link__nav">Cerrar Sesion</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+ </div>
+
+ <!-- menu -->
+ <nav id="sidebar">
   <nav class="nav">
-    <!--elemento-->
-    <ul class="list">
-
-      <li class="list__item">
-        <!--Contenedor-->
-        <div class="list__botton">
-          <!--Imagen-->
-        <img src="img/logouni.png" width="25px" alt="Logo Uni" class="list__img">
-        <!--elemento-->
-        <a href="#" class="nav__link">UNI EARPFIM</a>
-
-        </div>
-      </li>
-
-      <!--Lista-->
-      <li class="list__item  list__item--click">
-        <div class="list__button list__button--click">
-          <!--BoxIcons-->
-          <img src="assets/male.svg" class="list__img">
-          <a href="#" class="nav__link">General</a>
-          <img src="assets/flecha.svg" class="list__flecha">
-        </div>
-        <!--<select name="select">
-          <option value="value1">Value 1</option>
-          <option value="value2" selected>Value 2</option>
-          <option value="value3">Value 3</option>
-        </select-->
-        <!--Un menu dentro de otro menu-->
-        <ul class="list__show">
-          <li class="list__inside">
-            <a href="#" class="nav__link nav__link--inside">Aula Virtual FIM</a>
-
+      <!-- encabezado del menu donde esta el logo  -->
+      <ul class="logo">
+          <li class="logo_uni">
+              <section class="uni">
+                <img src="img/logouni.png" height="40px">
+                  <span class="nombre">UNI EARPFIM</span><br>
+                  <h5 class="doc">DOCENTE</h5>
+              </section>
+              
           </li>
+      </ul>
 
-          <li class="list__inside">
-            <a href="#" class="nav__link nav__link--inside">Mi Horario de Clases</a>
+      <!--botones y listas-->
+      <ul class="list">
+          <li class="list__item list__item--click">
+              <section class="list__butoon list__butoon--click">
+                  <img src="assets/male.svg" class="list__img">
+                  <a href="" class="nav__link">General</a>
+                  <img src="assets/arrow.svg" class="list__arrow">
+              </section>
 
+              <ul class="list__show">
+                  <li class="list__inside">
+                      <a href="#" class="nav__link nav__link--inside"><img src="assets/bxs-graduation.svg" alt="">Aula virtual FIM</a>
+                  </li>
+                  <li class="list__inside">
+                      <a href="horario.html" id="Horario" class="nav__link nav__link--inside"><img src="assets/bx-pencil.svg" alt="">Mi horario de clases</a>
+                  </li>
+                  <li class="list__inside">
+                      <a href="informaciondo.html" class="nav__link nav__link--inside"><img src="assets/bxs-contact.svg" alt="">Informacion Docente</a>
+                  </li>
+                  <li class="list__inside">
+                      <a href="#" class="nav__link nav__link--inside"><img src="assets/bxs-cursos.svg" alt=""> Mis Cursos Asiganados</a>
+                  </li>
+                  <li class="list__inside">
+                      <a href="#" class="nav__link nav__link--inside"><img src="assets/bx-tutoria.svg" alt=""> Tutotia Alumnos</a>
+                  </li>
+                  <li class="list__inside">
+                      <a href="asistencia.html" class="nav__link nav__link--inside"><img src="assets/asistencia.svg" alt=""> Asistencia</a>
+                  </li>
+                  <li class="list__inside">
+                      <a href="#" class="nav__link nav__link--inside"><img src="assets/bx-link.svg" alt=""> Carga Notas ORCE</a>
+                  </li>
+                  <li class="list__inside">
+                      <a href="#" class="nav__link nav__link--inside"><img src="assets/bx-biblioteca.svg" alt=""> Biblioteca Virtual</a>
+                  </li>
+                  <li class="list__inside">
+                      <a href="#" class="nav__link nav__link--inside"><img src="assets/diponibilidad.svg" alt=""> Mi Disponibilidad</a>
+                  </li>
+                  <li class="list__inside">
+                      <a href="#" class="nav__link nav__link--inside"><img src="assets/bxs-reclamo.svg" alt=""> Reclamo del Reclamo</a>
+                  </li>
+                  <li class="list__inside">
+                      <a href="#" class="nav__link nav__link--inside"><img src="assets/bx-correcion.svg" alt=""> Correcion de Notas</a>
+                  </li>
+                  <li class="list__inside">
+                      <a href="#" class="nav__link nav__link--inside"><img src="assets/bxs-ayuda.svg" alt=""> Ayuda en Aula</a>
+                  </li>
+              </ul>
           </li>
-
-          <li class="list__inside">
-            <a href="#" class="nav__link nav__link--inside">Información Docente</a>
-
+          <li class="list__item list__item--click">
+              <section class="list__butoon list__butoon--click">
+                  <img src="assets/male.svg" class="list__img">
+                  <a href="" class="nav__link">Administrador</a>
+                  <img src="assets/arrow.svg" class="list__arrow">
+              </section>
           </li>
-
-          <li class="list_inside">
-            <a href="#" class="nav__link nav_link--inside">Mis Cursos Asignados</a>
-
-          </li>
-
-          <li class="list__inside">
-            <a href="#" class="nav__link nav__link--inside">Tutoria Alumnos</a>
-
-          </li>
-
-          <li class="list__inside">
-            <a href="#" class="nav__link nav__link--inside">Asistencia</a>
-
-          </li>
-
-          <li class="list__inside">
-            <a href="#" class="nav__link nav__link--inside">Cargar Notas ORCE</a>
-
-          </li>
-
-          <li class="list__inside">
-            <a href="#" class="nav__link nav__link--inside">Biblioteca Virtual</a>
-
-          </li>
-
-          <li class="list__inside">
-            <a href="#" class="nav__link nav__link--inside">Mi Disponibilidad</a>
-
-          </li>
-
-          <li class="list__inside">
-            <a href="#" class="nav__link nav__link--inside">Reclamo de reclamo</a>
-
-          </li>
-
-          <li class="list__inside">
-            <a href="#" class="nav__link nav__link--inside">Correción de notas</a>
-
-          </li>
-
-          <li class="list__inside">
-            <a href="#" class="nav__link nav__link--inside">Ayuda en Aula</a>
-
-          </li>
-
-          <li class="list__inside">
-            <a href="#" class="nav__link nav__link--inside">Aula virtual Titulación</a>
-
-          </li>
-
-        </ul>
-
-
-      </li>
-
-      <li class="list__item  list__item--click">
-        <div class="list__button list__button--click">
-          <img src="assets/male.svg" class="list__img">
-          <a href="#" class="nav__link">Administrador</a>
-          <img src="assets/flecha.svg" class="list__flecha">
-        </div>
-
-        <ul lass="list__show">
-          <li class="list__inside">
-            <a href="#" class="nav__link nav__link--inside">Casilla en blanco</a>
-
-          </li>
-
-          <li class="list__inside">
-            <a href="#" class="nav__link nav__link--inside">Casilla en blanco</a>
-
-          </li>
-
-        </ul>
-      </li>
-
-      <li class="list__item">
-        <div class="list__button list__button--click">
-          <img src="assets/male.svg" class="list__img">
-          <a href="#" class="nav__link">Acreditación FIM</a>
-          <img src="assets/flecha.svg" class="list__flecha">
-
-        </div>
-      </li>
-
-      <li class="list__item">
-        <div class="list__button list__button--click">
-          <img src="assets/male.svg" class="list__img">
-          <a href="#" class="nav__link">Virtual</a>
-          <img src="assets/flecha.svg" class="list_flecha">
-
-        </div>
-      </li>
-
-      <li class="list__item">
-        <div class="list__button list__button--click">
-          <img src="assets/male.svg" class="list__img">
-          <a href="#" class="nav__link">Documentos académico</a>
-          <img src="assets/flecha.svg" class="list__flecha">
-
-        </div>
-      </li>
-
-    </ul>
+      </ul>
   </nav>
+</nav>
+
   
 
-
+ 
+  
+  
+  
+  
+  <script src="menu.js"></script>
 
 </body>
 </html>

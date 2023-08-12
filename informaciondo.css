@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Source+Sans+Pro&display=swap');
+
+body{
+    display: flexbox;
+    padding: 0;
+    margin: 0;
+}
+
+/* CSS DE DOCENTE */
+.grid{
+    padding: 30px 30px 10px 30px;
+    display: grid;
+    grid-template-columns: 100px 500px;
+    grid-template-rows: 50px 50px 33px;
+    grid-column-gap: 10px;
+    /* background-color: #da3c3c; */
+    height: 133px;
+    width: 100%;
+    grid-template-areas: 
+                        "image nombre"
+                        "image boton"
+                        "actualizar actualizar";
+    
+}
+.grid .item1 { grid-area: image;}
+.grid .item2 { grid-area: nombre;}
+.grid .item3 { grid-area: boton;}
+.grid .item4 { grid-area: actualizar;}
+
+.item1{
+    width: 100px;
+    height: 100px;
+    border: #212121 1px solid;
+    object-fit: cover;
+    align-items: stretch;
+    box-shadow: 100px;
+}
+
+.img_docente{
+    width: 100px;
+    height: 100px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.item2 {
+    display: flexbox;
+    flex-direction: column;
+    height: 40px;
+}
+
+.item2 #name {
+    font-size: 15px;
+}
+.item2 #id {
+    color: rgb(34, 79, 177);
+    font-size: 13px;
+}
+
+.item3 {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    text-align: center;
+}
+.item3 div{
+    margin-right: 13px;
+}
+
+.item3 span{
+    color: #6c757d;
+    font-size: 10px;
+}
+
+.item3 #Actualizar{
+    border: #6c757d solid 1px;
+    background-color: white;
+    height: 30px;
+    width: 40px;
+}
+
+.item3 #update{
+    border: #6c757d solid 1px;
+    background-color: white;
+    height: 30px;
+    width: 40px;
+}
+
+.item4 {
+    margin-top: 8px;
+    display: flex;
+    text-align: center;
+}
+
+.item4 #imagen-container{
+    border: #2587be solid 1px;
+    height: 25px;
+    width: 35px;
+    background-color: #fafafa;
+    border-radius: 2px;
+    text-align: center;
+}
+
+.item4 #pdf{
+    height: 25px;
+    width: 100px;    
+    margin-left: 10px;
+    background-color: white;
+    border: red solid 1px;
+    color: red;
+    border-radius: 2px;
+}
+
+.secciones{
+    width: 100%;
+    height: 100%;
+    /* background-color: #2587be; */
+    display: flex;
+    flex-direction: column;
+    margin: 0px 30px;
+}
+nav{
+    float: right;
+}
+
+nav ul{
+    list-style: none;
+    overflow: hidden;
+    margin-left: -30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+nav ul li{
+    float: left;
+    font-size: 12px;
+    /* border: #212121 solid 1px; */
+    width: 50px;
+}
+
+nav ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    color: #3b3b3b;
+}
+
+#frame_section{
+    width: 100%;
+    height: 100vh;
+
+
+}

@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+/* estilo a donde esta la tabla */
+#horario{
+    position: absolute;
+    left: 0;
+    /* background: red; */
+    padding-left: 30px;
+    height: 100%;
+    padding-top: 30px;
+    align-self: center;
+    width: 100%;
+    /* transition: all 500ms linear; */
+    color: black;
+    top: 62px;
+}
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 5px;
+    /* width: 5px ; */
+}
+th, td{
+    font-size: x-small;
+}
+
+table{
+    width: 94%;
+}
+
+.hora{
+    width: 30px;
+}
+
+.dias{
+    width: 170px;
+}
+
+.car h3{
+    width: 94%;
+    text-align: right;
+    color: gray;
+}
+
+.button li a{
+    text-decoration: none;
+    padding: 1px;
+    background-color: whitesmoke;
+    color: black;
+    right: 250px;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+/* le da estilo al div donde se encuentra las palabas HORARIO DE CLASES y al boton */
+.let{
+    width: 94%;
+    display: flex;
+    gap: 33em;
+    position: relative;
+}
+
+/* le da estilo la div completo donde se encuentra la nota y el definitivo */
+.let01{
+    display: flex;
+    gap: 25em;
+    padding-top: 8px;
+}
+
+/* Le da color a la palabra DEFINITIVO */
+.def{
+    color: rgb(28, 78, 187);
+    font-size: small;
+}
+
+.link__nav{
+    color: black;
+    display: block;
+    padding: 7px;
+    text-decoration: none;
+}
+
+
+.lista{
+    background: whitesmoke;
+    padding: 20px;
+    position: fixed;
+    right: -156px; 
+    top: 50px;
+    transition:all .5s;
+}
+
+#otros.active{
+    right: 0;
+    transition: .5s;
+}
+
+.cur{
+    text-decoration: none;
+    color: black;
+}
+
+.alm{
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+    
+}
+/* 
+.boton{
+}
+*/
+.PDF{
+    display: flex;
+    align-items: center;
+    height: 32px;
+    width: 140px;
+    gap: 1mm;
+    padding-left: 5px;
+    cursor: pointer;
+    background-color: rgb(243, 56, 56);
+    color: white;
+    border-radius: 5px;
+    border-color: rgb(243, 56, 56);
+}
